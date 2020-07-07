@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Tech Table</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet" type="text/css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">  
+</head>
+<style>
+h1, h2, h3, h4, h5, h6 {  
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 10px;
+    font-weight: 100;   
+}
+.backgroundtx{
+    background-color: #061922;
+}
+  .nav-link{
+    margin-left: 10px;
+    margin-right: 10px;
+}
+.nav-link:hover {
+    border-bottom: 1.5px solid crimson;
+}
+.navbar-inner{
+    background: transparent;
+}
+.carousel-inner img {
+    width: 100%;
+    height: 100%;
+  }
+
+.img-description {
+  position: absolute;
+  visibility: hidden;
+  opacity: 0;
+  /* transition effect. not necessary */
+  transition: opacity .2s, visibility .2s;
+}
+
+.carousel-item:hover .img-description {
+  visibility: visible;
+  opacity: 1;
+}
+.image1{
+  background-image: url("images/image1.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+}
+.img-content{
+  text-align: center;
+  padding-top: 10%;
+}
+.btn:hover{
+    -ms-transform: scale(1.4); /* IE 9 */
+  -webkit-transform: scale(1.4); /* Safari 3-8 */
+  transform: scale(1.4); 
+  cursor: pointer;
+}
+.copyright {
+    padding: 20px 0;
+}
+.copyright {
+    padding: 10px 0;
+    text-align: center;
+    color: #777;
+}
+ .footerWrap .quicklinks li a {
+    display: block;
+    color: #ccc;
+    padding: 8px 0;
+    font-size: 14px;
+}
+.footerWrap {
+    background: #272727;
+    padding: 50px 0;
+}
+.footerWrap p {
+    line-height: 22px;
+    color: #ccc;
+}
+.footerWrap h5 {
+    margin-top: 25px;
+    font-size: 24px;
+}
+
+.footerWrap h5 {
+    font-size: 18px;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 15px;
+}
+.footerWrap .quicklinks {
+    list-style: none;
+    list-style-position: initial;
+    list-style-image: initial;
+    list-style-type: none;
+}
+.footerWrap .quicklinks li a:before {
+    content: '\f0da';
+    font-family: 'FontAwesome';
+    margin-right: 7px;
+}
+.quicklinks li a:hover {
+    color: #263bd6;
+    text-decoration: none;
+}
+.social a {
+    color: #fff;
+    font-size: 32px;
+    display: inline-block;
+    margin-right: 5px;
+}
+.social a :hover{
+    color: #00a8ff;
+    font-size: 32px;
+    display: inline-block;
+    margin-top: 0;
+}
+</style>
+<body >
+  
+  <nav class="navbar navbar-expand-lg navbar-dark backgroundtx">
+    <a class="navbar-brand" href="#">
+      <img src="images/logo.png" width="250px" height="110px">
+    </a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-center navbar-inner" id="navbarNavDropdown">
+      <ul class="navbar-nav">
+        <li class="nav-item active">
+          <a class="nav-link" href="#about">ABOUT</a>
+        </li>
+        <li class="nav-item active">
+          <a class="nav-link" href="#faq">FAQ</a>
+        </li>
+        <li class="nav-item active">
+         <a class="nav-link" href="#free">Free Online <br>Career Excellence & <br>Leadership Prgram</a>
+        </li>
+        <li class="nav-item active">
+         <a class="nav-link" href="#career_Support">Career Support</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <!-- images -->
+  <div class="image1">
+    <div class="img-content">
+      <b><strong><h1 style="color: green;">LeaderClasses</h1></strong></b><br>
+      <b><h2 style="color: blue;">Free Online Career Excellence & Leadership Prgram</h2></b><br>
+      <button type="button" class="btn btn-primary" style="border-radius: 20px">Know More & Signup</button>
+    </div>
+  </div>
+  <br>
+  <div class="container">
+    <h1 style="text-align: center;">To Facilitate this Leader Classes</h1>
+    <h3 style="text-align: center; color: blue">100+ FULLTIME/EXECUTIVE DEVELOPMENT PROGRAM AT PRE-EMINENT UNIVERSITIES</h3>
+    <h2 style="text-align: center;">LIKE</h2><br>
+    <img class="img-fluid" src="images/college2-logo.png">
+  </div>
+  <br><br>
+  <div class="container" style="text-align: center;">
+    <h1 style="color: blue;">50+ RENOWNED HIGH POTENTIAL</h1><h3 style="text-decoration: underline;"> (HI-PRO) & <br> EXECUTIVE LEADERSHIP DEVELOPMENT PROGRAMS OF TOP TIER ORGANIZATION</h3>
+    <h2 style="text-align: center;">LIKE</h2><br>
+    <img class="img-fluid" src="images/company-logo.png">
+  </div>
+  <br>
+  <!-- carousel 1-->
+  <div class="container">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h1 style="text-align: center;">World Leaders</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/1.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.APJ ABDUL KALAM</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/2.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">BARACK OBAMA</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/3.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">BENJAMIN NETANYAHU</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/4.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">SHINZO ABE</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Visionaries & Pioneers</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/5.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">JRD TATA</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/6.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">STEVE JOBS</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/7.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">JEFF BEJOS</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/8.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">ELON MUSK</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Buisness Legends</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/9.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">WARREN BUFFETT</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/10.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">BILL GATES</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/11.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">JACK MA</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/12.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">HERB KELLEHER</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Gopal Buisness Leaders</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/13.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">RATAN TATA</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/14.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.JACK WELCH</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/15.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MUKESH AMBANI</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/16.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MARRY BARRA</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Investors</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/17.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">JOHN DOERR</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/18.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MICHAEL MORITZ</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/19.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MASAYASHI SON</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/20.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MARRY MEEKER</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div> 
+  </div>
+  <br><br>
+  <!-- carousel 2-->
+  <div class="container">
+  <div id="demo" class="carousel slide" data-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <h1 style="text-align: center;">Innovators</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/21.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.VINTON CERF</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/22.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Prof.KLAUS SCHWAB</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/23.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.HASSO PLATTNER</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/24.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.LARRY PAGE</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Futurists</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/25.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.RAY KURZWEIL</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/26.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.MICHIO KAKU</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/27.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.ALFIN TOFFLER</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/28.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.JOHN NAISBITT</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Thought Leaders</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/29.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">JIM COLLINS</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/30.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.TOM PETERS</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/31.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Dr.DANIEL GOLEMAN</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/32.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">ROBIN SHARMA</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">World Class Professors</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/33.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Prof.PETER DRUCKER</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/34.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Prof.JOHN KOTTER</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/35.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Prof.PHILLIP KOTLER</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/36.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">Prof.MICHAEL PORTER</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+      <div class="carousel-item">
+        <h1 style="text-align: center;">Distinguished Entreprenuers</h1>
+        <h4 style="text-align: center;">LIKE</h4>
+        <div class="row">
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/37.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">FRED SMITH</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/38.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">SIR RICHARD BRANSON</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/39.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">MICHAEL BLOOMBERG</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <img class="img-fluid" src="images/40.png">
+            <div class="carousel-caption">
+              <p style="text-align: center;" class="img-description">N.R.NARAYANA MURTHY</p>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div> 
+  </div>
+  <br><br>
+  <div class="container">
+    <h1 style="text-align: center; color: blue;">Economy & Globalization Enablers</h1>
+    <h3 style="text-align: center;">LIKE</h3>
+    <img class="img-fluid" src="images/college-logo.png">
+  </div>
+  <br>
+  <h1 style="text-align: center; color: blue;">CEO TESTIMONIALS</h1><br><br>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/testimonials1.png" width="300px" height="250px">
+        <h4 style="text-align: center;">Ram Gopal<br>Chief Executive Officer</h4>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <h2 style="text-align: center;">Executive Biography</h2>
+        <p>Ram contributes to the in-country leadership of India, with focus on strategy and execution. For the onshore business, he is responsible for the design and execution of a country strategy that supports the financial performance and market position of the banking entity in India.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <br><br>
+        <video width="400" controls>
+          <source src="https://www.youtube.com/watch?v=uqHOL4TwKgE&feature=emb_logo" type="video/mp4">
+        </video>
+      </div>
+    </div>
+    <br>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="images/testimonials2.png" width="300px" height="250px">
+        <h4 style="text-align: center;">Gunjan Srivastava<br>Chairman-Region AsiaPacific Board</h4>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <h2 style="text-align: center;">Executive Biography</h2>
+        <p>Bahl joined BSH in July this year and prior to that he was working with Panasonic India where he was the Group Chief Sales for retail and online segment, it added.
+        In his new role, Srivastava will be based in Singapore and his mandate will encompass running BSH’s business across the Asia-Pacific region including India, South East Asia, Australia and New Zealand.</p>
+      </div>
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+        <br><br>
+        <video width="400" controls>
+          <source src="https://www.youtube.com/watch?v=mcSfla42Gw4&feature=emb_logo" type="video/mp4">
+        </video>
+      </div>
+    </div>
+  </div>
+  <br>
+  <!--footer -->
+  <div class="footerWrap">
+        <div class="container">
+          <div class="row"> 
+            <!--About Us-->
+            <div class="col-md-5 col-sm-12">
+              <h3 style="color: white;">TechTable</h3>
+              <p class="text-white" style="padding-right: 100px;">
+                Representing an institution<br>
+                leaderClasses is at a very intresting phase of its growth & is actively looking to expand our Campus Partnerships
+                Pan-India.<br>If you are institutional Representative of University /College interested in building a relationship with us we invite you to review our<a href="#">"Campus Partners"</a>
+                <br><strong>Thanks for time and attention<br>Team-Leader Classes</strong>
+              </p>
+            </div>
+            <!--About us End--> 
+                
+            <!--Quick Links-->
+            <div class="col-md-3 col-sm-6">
+              <h5>Quick Links</h5>
+              <!--Quick Links menu Start-->
+              <ul class="quicklinks">
+                <li><a href="#.">Login/Sign up</a></li>
+                <li><a href="#.">Work at Startup</a></li>
+                <li><a href="#.">Post an opportunity</a></li>
+                <li><a href="#.">Success Stories</a></li>
+                <li><a href="#.">Contact Us</a></li>
+              </ul>
+            </div>
+            <!--Quick Links menu end--> 
+                
+            <!--Contact us-->
+            <div class="col-md-4 col-sm-12">
+              <button type="button" class="btn btn-primary">Contact us</button><br><br>
+              <a href="#" style="color: white;">9940332489</a>
+              <br><br>
+              <div class="social"> 
+                  <a href="https://www.facebook.com/techtable.co.in/" target="_blank"> <i class="fa fa-facebook-square" aria-hidden="true"></i></a> 
+                  <a href="https://www.instagram.com/official_techtable/" target="_blank"><i class="fa fa-instagram" aria-hidden="true"></i></a> 
+                  <a href="https://www.linkedin.com/company/tech-table/" target="_blank"><i class="fa fa-linkedin-square" aria-hidden="true"></i></a> 
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="copyright" style="color: white; background-color: rgb(46, 46, 46) !important; text-align: center;">
+        <a style="color: white;" href="#"> © 2020 LeaderClasses (AwesomeFirms) & its owner.All rights reserved.<br>
+        All trademarks,logos & intellectual property featured belong to their respective owners,They don't endorse us in any way.</a>
+      </div>
+</body>
+</html>
